@@ -1,4 +1,4 @@
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
+import Main from './Main/Main';
 
 export const App = () => {
   return (
@@ -13,9 +13,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <div>React homework template</div>
-
-      <FeedbackOptions />
+      <Main />
     </div>
   );
 };
