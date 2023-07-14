@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Section extends Component {
-  render() {
-    return (
-      <>
-        <h3>{this.props.title}</h3>
-        {this.props.children}
-      </>
-    );
-  }
-}
+const Section = props => (
+  <>
+    <h3>{props.title}</h3>
+    {props.children}
+  </>
+);
 
 export default Section;
